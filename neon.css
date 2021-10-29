@@ -102,6 +102,9 @@ bottom: 100%;
 @media screen and (min-width: 360px) and (max-width: 1020px){
 
 
+ 
+
+
 
     .contact-me a
     {
@@ -212,6 +215,7 @@ bottom: 100%;
     background: skyblue;
      box-shadow: 0 0 10px skyblue, 0 0 40px  skyblue, 0 0 80px skyblue; 
      transition-delay: 1s;} 
+
 
 
  
