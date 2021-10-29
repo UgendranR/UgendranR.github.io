@@ -147,6 +147,7 @@ li a:hover{
     box-shadow: 0px 8px 15px rgba(0,0,0,.4);
     margin-top: 15px;
     transition: 0.8s all;
+	
 }
 .title{
     position: absolute;
@@ -156,9 +157,13 @@ li a:hover{
 }
 .para{
 	position: absolute;
-	top: 70%;
-	left: 35%;
+	top: 60%;
+	left: 25%;
 	text-align: left;
+	
+}
+.para h2{
+	font-size: 30px;
 }
 .sidebar{
 	width: 45%;
@@ -353,7 +358,7 @@ li a:hover{
 	font-family: "lato";
 }
 .imp{
-	color: hotpink;
+	color: lightblue;
 	padding-left: 30px; 
 }
 .imp2{
@@ -738,6 +743,51 @@ li a:hover{
 /* Mobile */
 
 @media screen and (min-width: 360px) and (max-width: 1020px){
+	body{
+		width: 100vw;
+		
+	}
+	.sidebar, .sidebar3 {
+		margin-right: -3vw;
+		
+	 
+	}
+	.strip2{
+		margin-right: -3vw;
+	}
+	.topbar,.footer.topbar,.header ,.sidebar3,.sidebar2 ,.sidebar4,.sidebar,.loader,.li:before,.education .imp ,.cover {background-color: lightblue;}
+	.education .imp,.contact-tagline{
+		font-weight: 1200;
+		font-family: 'Times New Roman', Times, serif ;
+		color: #000;
+	}
+	.messageme{
+		background-color: rgb(0, 0, 0);
+		color: lightblue;
+	}
+	
+	
+	.para{
+		margin-top: -20vh;
+	}
+	.vh{
+		height: 100vh;
+	 
+
+	}
+
+	.box{
+		margin-top: 2vh;
+	}
+	#about{
+		margin-top: -20vh;
+	}
+	#skills{
+		margin-top: -10vh;
+	}
+	.strip3{
+		 margin-top: -4.5vh;
+	}
 	h3{
 		font-size: 100px;
 	}
@@ -803,11 +853,15 @@ li a:hover{
 	.experience{
 		top: 73%;
 		left: 13%;
-		width: 80%;
+		width: 90%;
+		height: 50%;
+		 
 	}
+
 	.strip3{
-		width: 8%;
+		width: 80%;
 		height: 12%;
+		 
 	}
 	.photo{
 		width: 280px;
@@ -855,13 +909,18 @@ li a:hover{
 	}
 	#projects{
 		height: 115vh;
+		margin-left: 1vw;
+		width: 100%;
+		
 	}
-	.svg8{
+	.svg8  {
 		width: 400px;
 		height: 320px;
 		top: 2%;
 		left: 2%;
+		
 	}
+	
 	@keyframes svgEight{
 		0% {
             transform: translate(0) rotate(0);
@@ -884,14 +943,20 @@ li a:hover{
 		    transform: translateX(-400px) rotate(-360deg);
 		}
 	}
+	#projects{
+		max-height: 90vh;
+	}
 	.project-title{
-		top: 3%;
+		top: 5%;
 		left: 30%;
+	 
 	}
 	.projects-container{
-		top: 14%;
+		top: 20%;
 	}
 	.project{
+		margin-top: 0vh;
+		margin-bottom: 7vh;
 		display: block;
 		width: 100%;
 		height: 50%;
@@ -906,12 +971,21 @@ li a:hover{
 		left: 30%;
 	}
 	#contacts{
-		height: 50vh;
+		height: 33vh;
 	}
 	.contact-me{
 	    width: 90%;
 	    margin: 20% 5%;
-    }
+    } 
+	.more{
+		position: relative;
+		margin-top: -7vh;
+
+	}
+	.more a{
+		height:50px;
+		 
+	}
     .p2{
     	font-size: 55px;
     }
@@ -962,4 +1036,20 @@ li a:hover{
     	font-size: 60px;
     	line-height: 100px;
     }
+	.logo ,.scroll-indicator{
+		background-color: lightblue;
+	}
+	.messageme{
+		background-color: skyblue;
+	}
+	.para{
+		position: absolute;
+		top: 70%;
+		left: 12%;
+		text-align: left;
+		
+	}
+	.para h2{
+		font-size: 33pt;
+	}
 }
