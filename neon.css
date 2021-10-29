@@ -1,0 +1,249 @@
+ .contact-me a:hover
+{
+color: #000000; 
+background: hotpink;
+ box-shadow: 0 0 10px lightpink, 0 0 40px  lightpink, 0 0 80px lightpink; 
+ transition-delay: 1s;} 
+
+ .contact-me a span
+{position: absolute;
+ display: block;}
+
+
+.contact-me a span:nth-child(1)
+{
+ 
+top: 0;
+width: 100%;
+Left: -100%; 
+background: linear-gradient (90deg, transparent, lightpink);
+background-color:lightpink;
+height: 2px;
+
+} 
+
+ .contact-me a:hover span:nth-child(1)  {
+Left: 100%; 
+ transition: .25s;
+ transition-property: 0s;
+}
+.contact-me a span:nth-child(3)
+{
+bottom: 0;
+width: 100%;
+right: -100%; 
+background: linear-gradient (270deg, transparent, lightpink);
+background-color:lightpink ;
+height: 2px;
+} 
+
+.contact-me a:hover span:nth-child(3)  {
+right: 100%; 
+ transition: 1s;
+ transition-delay: 0.25s;
+}
+
+.contact-me a span:nth-child(2)
+{
+top:-100%;
+width: 2px;
+right: 0; 
+background: linear-gradient (180deg, transparent, lightpink);
+background-color:lightpink ;
+height: 100%;
+} 
+
+.contact-me a:hover span:nth-child(2)  {
+    top: 100%; 
+ transition: 1s;
+ transition-delay: 0.25s;
+}
+
+.contact-me a span:nth-child(4)
+{
+bottom:-100%;
+width: 2px;
+left: 0; 
+background: linear-gradient (360deg, transparent, lightpink);
+background-color:lightpink ;
+height: 100%;
+} 
+
+.contact-me a:hover span:nth-child(4)  {
+bottom: 100%; 
+ transition: 1s;
+ transition-delay: 0.5s;
+} 
+
+.contact-me a{
+    color: hotpink;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: 0.2s;
+    padding:15px 30px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: lavender;
+
+}
+
+.message {
+    position: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+   
+    align-items: center;
+    
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 1020px){
+
+
+
+    .contact-me a
+    {
+    color: #000000; 
+    background: lightskyblue;
+     box-shadow: 0 0 10px lightskyblue, 0 0 40px  lightskyblue, 0 0 80px lightskyblue; 
+     transition-delay: 1s;} 
+    
+     .contact-me a span
+    {position: absolute;
+     display: block;}
+    
+    
+    .contact-me a span:nth-child(1)
+    {
+     
+    top: 0;
+    width: 100%;
+    Left: -100%; 
+    background: linear-gradient (90deg, transparent, skyblue);
+    background-color:skybluek;
+    height: 2px;
+    
+    } 
+    
+     .contact-me a  span:nth-child(1)  {
+    Left: 100%; 
+     transition: .25s;
+     transition-property: 0s;
+    }
+    .contact-me a span:nth-child(3)
+    {
+    bottom: 0;
+    width: 100%;
+    right: -100%; 
+    background: linear-gradient (270deg, transparent, skyblue);
+    background-color:skyblue ;
+    height: 2px;
+    } 
+    
+    .contact-me a  span:nth-child(3)  {
+    right: 100%; 
+     transition: 1s;
+     transition-delay: 0.25s;
+    }
+    
+    .contact-me a span:nth-child(2)
+    {
+    top:-100%;
+    width: 2px;
+    right: 0; 
+    background: linear-gradient (180deg, transparent, skyblue);
+    background-color:skyblue ;
+    height: 100%;
+    } 
+    
+    .contact-me a span:nth-child(2)  {
+        top: 100%; 
+     transition: 1s;
+     transition-delay: 0.25s;
+    }
+    
+    .contact-me a span:nth-child(4)
+    {
+    bottom:-100%;
+    width: 2px;
+    left: 0; 
+    background: linear-gradient (360deg, transparent, skyblue);
+    background-color:skyblue ;
+    height: 100%;
+    } 
+    
+    .contact-me a span:nth-child(4)  {
+    bottom: 100%; 
+     transition: 1s;
+     transition-delay: 0.5s;
+    } 
+    
+    .contact-me a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        letter-spacing: 4px;
+        transition: 0.2s;
+        padding:15px 30px;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+      
+        padding-top:30px;
+        font-size: 30px;
+    
+    }
+    
+    .messageme {
+        position: flex;
+        margin: 0;
+        padding-top: 0px;
+        justify-content: center;
+        background-color: skyblue; 
+        align-items: center;
+        height: 40px;
+        width:250px
+        
+    }
+    .contact-me a:hover
+    {
+    color: #000000; 
+    background: skyblue;
+     box-shadow: 0 0 10px skyblue, 0 0 40px  skyblue, 0 0 80px skyblue; 
+     transition-delay: 1s;} 
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
