@@ -1,3 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+ 
+ /* Type Writer*/
+ .wait {
+    animation: showBlock 0s 5s forwards;
+    visibility: hidden;
+}
+ 
+@keyframes showBlock {
+    to { visibility: visible; }
+}
+
+.typewriter h2 {
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+     
+   
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .5s step-end  7;
+      white-space: nowrap;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: hotpink; }
+  }
+  
+  .wait h2 {
+      
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid lightpink; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+       
+     
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .5s     ;
+        animation-delay: 5s;
+        
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: hotpink; }
+    }
+   
+   
+  
+
+
+
+
+.nav a:hover{
+    background-color: lightpink;
+    color: black;
+     font-weight: bolder;
+     border-color: otpink;
+    box-shadow: 0px 8px 15px hotpink;
+}
+ 
+
+ 
  .contact-me a:hover
 {
 color: #000000; 
@@ -24,7 +106,7 @@ height: 2px;
 
  .contact-me a:hover span:nth-child(1)  {
 Left: 100%; 
- transition: .25s;
+ transition: .1s;
  transition-property: 0s;
 }
 .contact-me a span:nth-child(3)
@@ -40,7 +122,7 @@ height: 2px;
 .contact-me a:hover span:nth-child(3)  {
 right: 100%; 
  transition: 1s;
- transition-delay: 0.25s;
+ transition-delay: 0.1s;
 }
 
 .contact-me a span:nth-child(2)
@@ -56,7 +138,7 @@ height: 100%;
 .contact-me a:hover span:nth-child(2)  {
     top: 100%; 
  transition: 1s;
- transition-delay: 0.25s;
+ transition-delay: 0.1s;
 }
 
 .contact-me a span:nth-child(4)
@@ -72,7 +154,7 @@ height: 100%;
 .contact-me a:hover span:nth-child(4)  {
 bottom: 100%; 
  transition: 1s;
- transition-delay: 0.5s;
+ transition-delay: 0.2s;
 } 
 
 .contact-me a{
@@ -100,9 +182,6 @@ bottom: 100%;
 
 
 @media screen and (min-width: 360px) and (max-width: 1020px){
-
-
- 
 
 
 
@@ -214,8 +293,67 @@ bottom: 100%;
     color: #000000; 
     background: skyblue;
      box-shadow: 0 0 10px skyblue, 0 0 40px  skyblue, 0 0 80px skyblue; 
-     transition-delay: 1s;} 
+     transition-delay: 1s;}
+     @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: lightskyblue; }
+      } 
 
+
+      
+.typewriter h2 {
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+     
+   
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .5s step-end  7;
+      white-space: nowrap;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+  }
+  
+  .wait h2 {
+      
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+       
+     
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .5s  step-end infinite   ;
+        animation-delay: 5s;
+        
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: black; }
+    }
 
 
  
@@ -229,11 +367,7 @@ bottom: 100%;
 
 
 
-
-
-
-
-
+ 
 
 
 
