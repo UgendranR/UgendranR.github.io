@@ -12,6 +12,9 @@ h3{
 	font-family: "condiment";
 	line-height: 0;
 }
+.wait{
+	margin-left: 3vw;
+}
 .about-title{
 	font-family: "lato";
 	float: right;
@@ -55,7 +58,7 @@ a{
 	background: pink;
 	z-index: 2;
 	overflow: hidden;
-	animation: loader 2s ease 2s;
+	animation: loader 2s ease 1s;
     animation-fill-mode: forwards;
 }
 
@@ -66,6 +69,7 @@ a{
 	transform: translate(-50%,-50%);
 	text-align: center;
 }
+
 
 .loader .intro h3{
 	font-size: 120px;
@@ -634,6 +638,9 @@ li a:hover{
 	position: relative;
 	background-color: #f6f6f6;
 }
+#footer{
+	background-color: #E6E6FA;
+	}
 .logo{
 	position: absolute;
 	top: 10%;
@@ -735,6 +742,11 @@ li a:hover{
 	width: 7%;
 	height: 50%;
 	background-color: black;
+}
+
+#contacts{
+
+	padding-top: 5vh;
 }
 
 
@@ -868,7 +880,7 @@ li a:hover{
 		height: 280px;
 	}
 	.bio{
-		left: 45%;
+		left: 43%;
 	}
 	.skills-set{
 		width: 700px;
@@ -1052,4 +1064,30 @@ li a:hover{
 	.para h2{
 		font-size: 33pt;
 	}
+	.bottom{
+		display: none;
+	}
+	#footer{
+		height:13vh;
+	}
+	#footer .link{
+		display: none;
+	}
+	#contacts{
+
+		padding-top: 0;
+	}
+	.scroll-indicator{
+		display: none;
+	}
+	.logo{height: 9vh;margin-top: 15px;}
+	.footer-social-icons ul{
+		margin-top: -35px;
+	}
+	#footer{
+		margin-top: 100px;
+	}
+	
+ 
+ 
 }
