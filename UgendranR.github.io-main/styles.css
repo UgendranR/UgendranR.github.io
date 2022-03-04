@@ -2,10 +2,6 @@ body{
 	margin: 0;
 	padding: 0;
 }
-* {
-	scroll-behavior: smooth;
-  }
-  
 h1{
 	font-size: 70px;
 	font-family: "lato";
@@ -15,9 +11,6 @@ h3{
 	font-size: 40px;
 	font-family: "condiment";
 	line-height: 0;
-}
-.para h2{
-	font-family: Open Sans;
 }
 .wait{
 	margin-left: 3vw;
@@ -81,10 +74,6 @@ a{
 .loader .intro h3{
 	font-size: 120px;
 	color: black; 
-	font-family: myFirstFont;
-	src: url("sansation_light.woff");
-	font-weight: 200;
-	
 }
 @keyframes loader{
 	0%{
@@ -110,11 +99,6 @@ a{
 	height: 9%;
 	background-color: pink;
 	text-align: center;
-}
-.header h3{
-	font-family: Roboto;
-	font-weight: 200;
-	
 }
 .line{
 	position: absolute;
@@ -180,13 +164,10 @@ li a:hover{
 	top: 60%;
 	left: 25%;
 	text-align: left;
-	 
 	
 }
 .para h2{
 	font-size: 30px;
-	font-family: sans-serif;
-	font-weight: 200;
 }
 .sidebar{
 	width: 45%;
@@ -259,15 +240,11 @@ li a:hover{
 	}
 }
 
-/* About  */
+/* About */
 #about{
 	width: 100%;
 	height: 100vh;
 	position: relative;
-	padding-bottom: 20px;
-}
-#about a{
-	margin-top: -20px;
 }
 
 .topbar{
@@ -286,12 +263,6 @@ li a:hover{
 	height: 60%;
 	border: 3px solid black;
 	background-color: transparent;
-	font-family: Open Sans;
-}
-.box h4{
-	font-family: sans-serif;
-	line-height: 32px;
-	font-weight: 200;
 }
 .pos{
 	float: right;
@@ -375,21 +346,12 @@ li a:hover{
 	top: 0;
 	left: 35%;
 	color: white;
-	
-		font-family: sans-serif;
-
-}.bio h4{
-	font-family: sans-serif;
-	font-weight: 200;
 }
 .education{
 	width: 45%;
 	position: absolute;
 	top: 5%;
 	left: 15%;
-}.education h4{
-	font-family: sans-serif;
-	font-weight: 200;
 }
 .h4{
 	padding: 0;
@@ -400,7 +362,7 @@ li a:hover{
 	font-family: "lato";
 }
 .imp{
-	color: rgb(76, 169, 201);
+	color: lightblue;
 	padding-left: 30px; 
 }
 .imp2{
@@ -411,10 +373,6 @@ li a:hover{
 	position: absolute;
 	top: 50%;
 	left: 15%;
-}
-.experience h4{
-	font-family: sans-serif;
-	font-weight: 200;
 }
 .skills-set{
 	width: 400px;
@@ -625,10 +583,6 @@ li a:hover{
 }
 
 /* contacts */
-.contact-tagline{
-	font-family: sans-serif;
-	font-weight: 200;
-}
 #contacts{
 	width: 100%;
 	height: 60vh;
@@ -805,10 +759,6 @@ li a:hover{
 		width: 100vw;
 		
 	}
-	#skills .imp{
-		color: rgb(69, 18, 163);
-		padding-left: 30px; 
-	}
 	.sidebar, .sidebar3 {
 		margin-right: -3vw;
 		
@@ -905,7 +855,6 @@ li a:hover{
 		left: 15%;
 		height: 63%;
 	}
-	
 	h4{
 		font-size: 45px;
 		padding: 0 5%;
@@ -1138,14 +1087,7 @@ li a:hover{
 	#footer{
 		margin-top: 100px;
 	}
-	.box h4{
-		font-family: sans-serif;
-	line-height: 60px;
-	font-weight: 200;
-	}
+	
  
-	.imp{
-		color: rgb(76, 169, 201);
-		padding-left: 30px; 
-	}
+ 
 }
